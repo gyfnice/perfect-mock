@@ -7,14 +7,14 @@ vue工程  完美mock 解决方案
 
 vue create perfect-mock
 
-下载相关依赖
-cnpm install
-
-安装以下必要mock插件，重点是pollyjs
-
+注：
+重点插件（已经配置好，直接下载即可）：
 "axios": "^0.18.0",
 "@pollyjs/core": "^0.5.0",
 "@pollyjs/node-server": "^0.3.0",
+
+下载相关依赖
+cnpm install
 
 运行
 npm run serve
