@@ -1,0 +1,30 @@
+{
+  "created_at": "2018-08-14T08:38:49.048Z",
+  "entries": {
+    "6267c662097ad1c438f43329565e42bb": [
+      {
+        "created_at": "2018-08-14T08:38:49.048Z",
+        "request": {
+          "body": null,
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "text/plain;charset=utf-8"
+          },
+          "method": "GET",
+          "timestamp": "2018-08-14T08:38:48.730Z",
+          "url": "http://47.93.117.57:8081/houseSailWebsite/listRegion?num=2"
+        },
+        "response": {
+          "body": "{\"code\":10000,\"msg\":\"操作成功\",\"data\":[{\"name\":\"渔安新城店\",\"id\":110},{\"name\":\"甜蜜小镇店\",\"id\":111}]}",
+          "headers": {
+            "content-type": "application/json;charset=UTF-8"
+          },
+          "status": 200,
+          "timestamp": "2018-08-14T08:38:49.043Z"
+        }
+      }
+    ]
+  },
+  "name": "<niceRecording Name>",
+  "schema_version": 0.1
+}

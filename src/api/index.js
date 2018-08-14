@@ -2,10 +2,23 @@
 import axios from "axios";
 import {Polly} from "@pollyjs/core"; 
 
-const polly = new Polly('<Recording Name>', {
+const polly = new Polly('<nRecording Name>', {
   adapters: ['xhr'],
-  mode: 'record'
+  mode: 'record'   //record 
 });
+const { server } = polly;
+
+// server
+//   .any()
+//   .on('request', (req, res) => {
+//     req.headers['X-Auth-Token'] = 'abc123';
+//   });
+
+// // Intercept requests  拦截请求
+// server.get('/sail-web/houseSailWebsite/listRegion').intercept((req, res) => {
+//   res.status(200).json({ msg: '操作ok' });
+// });
+
 
 const devMode = false; //一键切换开发环境 用户名： admin  111111
 
@@ -82,8 +95,8 @@ export default {
     url = url.replace(/^\//, "");
     const [path, subPath] = url.match(/\w+/g);
     //请求路径
-    //return "/sail-web/" + router[path][subPath];
-    return 'http://47.93.117.57:8081/' + router[path][subPath];
+    return "/sail-web/" + router[path][subPath];
+    //return 'http://47.93.117.57:8081/' + router[path][subPath];
   },
   interceptorsMethod: interceptorsMethod,
   request: requestMethod
