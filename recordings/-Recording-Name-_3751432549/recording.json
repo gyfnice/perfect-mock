@@ -1,0 +1,53 @@
+{
+  "created_at": "2018-08-14T08:12:48.533Z",
+  "entries": {
+    "6267c662097ad1c438f43329565e42bb": [
+      {
+        "created_at": "2018-08-14T08:15:24.931Z",
+        "request": {
+          "body": null,
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "text/plain;charset=utf-8"
+          },
+          "method": "GET",
+          "timestamp": "2018-08-14T08:15:24.706Z",
+          "url": "http://47.93.117.57:8081/houseSailWebsite/listRegion?num=2"
+        },
+        "response": {
+          "body": "{\"code\":10000,\"msg\":\"操作成功\",\"data\":[{\"name\":\"渔安新城店\",\"id\":110},{\"name\":\"甜蜜小镇店\",\"id\":111}]}",
+          "headers": {
+            "content-type": "application/json;charset=UTF-8"
+          },
+          "status": 200,
+          "timestamp": "2018-08-14T08:15:24.928Z"
+        }
+      }
+    ],
+    "7c59b23a1f5c55e07343ee3eeda529d5": [
+      {
+        "created_at": "2018-08-14T08:12:48.545Z",
+        "request": {
+          "body": null,
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "text/plain;charset=utf-8"
+          },
+          "method": "GET",
+          "timestamp": "2018-08-14T08:12:48.326Z",
+          "url": "http://47.93.117.57:8081/contentSailWebsite/topList?num=3"
+        },
+        "response": {
+          "body": "{\"code\":10000,\"msg\":\"操作成功\",\"data\":[{\"id\":84,\"typeId\":null,\"title\":\"打造理想城市乌托邦，全生态长租公寓\",\"typeName\":null,\"status\":null,\"top\":null,\"recom\":null,\"pageviews\":62,\"sort\":null,\"keyWord\":\"\",\"coverImg\":\"/file/imgDownload?subFilePath=2018/02/2018021523576.jpg\",\"thumbImg\":\"\",\"abstr\":\"\",\"createTime\":null,\"creater\":null,\"modifyTime\":null,\"modifier\":null,\"publishTime\":null,\"publishTimeStr\":null,\"publisher\":null,\"author\":null,\"remark\":null,\"inTime\":null,\"keyWords\":null},{\"id\":85,\"typeId\":null,\"title\":\"贵阳现实版爱情公寓上线\",\"typeName\":null,\"status\":null,\"top\":null,\"recom\":null,\"pageviews\":43,\"sort\":null,\"keyWord\":\"\",\"coverImg\":\"/file/imgDownload?subFilePath=2018/02/2018021522199.jpg\",\"thumbImg\":\"\",\"abstr\":\"\",\"createTime\":null,\"creater\":null,\"modifyTime\":null,\"modifier\":null,\"publishTime\":null,\"publishTimeStr\":null,\"publisher\":null,\"author\":null,\"remark\":null,\"inTime\":null,\"keyWords\":null},{\"id\":86,\"typeId\":null,\"title\":\"房子是租来的，生活是自己的\",\"typeName\":null,\"status\":null,\"top\":null,\"recom\":null,\"pageviews\":16,\"sort\":null,\"keyWord\":\"\",\"coverImg\":\"/file/imgDownload?subFilePath=2018/02/2018021523699.jpg\",\"thumbImg\":\"\",\"abstr\":\"\",\"createTime\":null,\"creater\":null,\"modifyTime\":null,\"modifier\":null,\"publishTime\":null,\"publishTimeStr\":null,\"publisher\":null,\"author\":null,\"remark\":null,\"inTime\":null,\"keyWords\":null}]}",
+          "headers": {
+            "content-type": "application/json;charset=UTF-8"
+          },
+          "status": 200,
+          "timestamp": "2018-08-14T08:12:48.544Z"
+        }
+      }
+    ]
+  },
+  "name": "<Recording Name>",
+  "schema_version": 0.1
+}
